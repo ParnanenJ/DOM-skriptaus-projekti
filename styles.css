@@ -1,0 +1,38 @@
+body{
+    background-color: #192841;
+    align-content: center;
+    color: white;
+}
+form {
+    background-color: #4b5563;
+    padding: 15px;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 25px;
+}
+h1{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: solid;
+    border-color: white;
+}
+
+td{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+tr:hover{
+    background-color: gray;
+}
+
