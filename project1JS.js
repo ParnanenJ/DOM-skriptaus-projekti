@@ -5,26 +5,28 @@ let localid = 1;
 
 // Lisää uusi rivi taulukkoon (tekstin + poistonappi)
 function lisaaRivi(id, value) {
-  const row = lista.insertRow();
-  const cellText = row.insertCell();
-  const cellButton = row.insertCell();
+  if (Number.isInteger(id)) {
+    const row = lista.insertRow();
+    const cellText = row.insertCell();
+    const cellButton = row.insertCell();
 
-  // Lisätään riveille näkymätön id
-  row.dataset.id = id;
-  // Tekstisolu
-  cellText.textContent = value;
+    // Lisätään riveille näkymätön id
+    row.dataset.id = id;
+    // Tekstisolu
+    cellText.textContent = value;
 
-  // Poistonappi
-  const btn = document.createElement("button");
-  btn.textContent = "Poista";
-  btn.addEventListener("click", function() {
-    // Poista rivi taulukosta ja LocalStoragesta
-    localStorage.removeItem(id);
-    row.remove();
-  });
+    // Poistonappi
+    const btn = document.createElement("button");
+    btn.textContent = "Poista";
+    btn.addEventListener("click", function() {
+      // Poista rivi taulukosta ja LocalStoragesta
+      localStorage.removeItem(id);
+      row.remove();
+    });
 
-  // Lisätään nappi taulukkoon
-  cellButton.appendChild(btn);
+    // Lisätään nappi taulukkoon
+    cellButton.appendChild(btn);
+  }
 }
 
 // Lataa LocalStoragesta tiedot sivun latauksessa
