@@ -2,24 +2,22 @@
 Jiro Pärnänen 
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify](https://dom-skriptaus-projekti.netlify.app/) tai [Github](https://parnanenj.github.io/DOM-skriptaus-projekti/)  
 Linkki projektin videoesittelyyn [google.com](https://google.com)
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
-Mielestäni onnistuin...
-Parantamista olisi...
-Sovelluksesta jäi puuttumaan...
-Koen, että olen oppinut...
-Epäselväksi jäi...
-Antaisin itselleni pisteitä seuraavasti: xx/yy p
+Mielestäni onnistuin toteuttamaan sovellusken hyvin kaikki ominaisuuden toimii niinkuin pitääkin. 
+Parantamista olisi sovelluksen nopaudessa (tällähetkellä sivu latautuu aina kun localstorageen tallennetaan tai muutetaan jotain. Tämä aiheuttaa välillä pienen, mutta silmällä huomattavissa olevan viiveen). 
+Koen, että olen oppinut kurssilla opetettujen aiheiden perusteen ja niiden perus periaatteet.
+Antaisin itselleni pisteitä seuraavasti: 10/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
-Kurssi sekä lähiopetus ovat olleet tosi hyviä, kiinnostavia ja selkeitä. 
+Kurssi on ollut tosi hyvä, kiinnostava ja selkeä.  
+Lähiopetus on ollut erittäin hyödyllistä ja hyvän laatuista.
 
 ## Sisällysluettelo:
 
 - [Tietoja sovelluksesta](#tietoja-sovelluksesta)
-- [Tunnetut virheet/bugit](#Tunnetut virheet/bugit)
 - [Kuvakaappaukset](#kuvakaappaukset)
 - [Teknologiat](#teknologiat)
 - [Asennus](#asennus)
@@ -28,16 +26,11 @@ Kurssi sekä lähiopetus ovat olleet tosi hyviä, kiinnostavia ja selkeitä.
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
-[Projektin nimi] on sovellus, joka ...
-
-## Tunnetut virheet/bugit
-Kerro jos tiedät sovelluksessa olevan jotain, mikä ei toimi tai toimii heikosti
+[Todo-lista] on yksinkertainen sovellus, jolla voi rakentaa erilaisia  todo-listoja (esim. tehtävistä töistä tai kauppalistan). Sovellus tallentaa tiedot selaimen localstorageen ja noutaa ne myös sieltä, joten sovelluksen voi sulkea milloin vain ja kaikki tehdyt muutokset pysyvät tallessa.
 
 ## Kuvakaappaukset
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
-
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+ 
+![Kuvakaappaus](https://github.com/ParnanenJ/DOM-skriptaus-projekti/blob/main/ss.png)
 
 ## Teknologiat 
 Käytin seuraavia teknologioita: `html`, `css`, `Javascript`
@@ -52,6 +45,5 @@ Loin html:llä ja css:llä verkkosivun ja Javascriptillä loin toiminnallisuudet
 Projektissa on hyödynnetty ChatGPT:ä koodin tarkistukseen ja virheiden kojaaamiseen. 
 
 ## Lisenssi
-Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 
-Esimerkki: MIT-lisenssi @ [tekijä](author.com)
+MIT-lisenssi @ ParnaneJ
