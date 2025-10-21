@@ -1,13 +1,17 @@
+// valitaan html tiedostosta lomake ja lista jatkoa varten
 const lomake = document.querySelector("#lomake");
 const lista = document.querySelector("#lista");
 
+// luodaan kaksi taulukkoa valmiit ja aktiiviset
 let aktiiviset = JSON.parse(localStorage.getItem("active")) || [];
 let valmiit = JSON.parse(localStorage.getItem("done")) || [];
 
+// kun sivu ladataan luodaan html-taulukkoon rivit
 lisaaRivi(aktiiviset, "active")
 lisaaRivi(valmiit, "done")
 
 // TIEDON LISÄSY
+// kun lomake lähetetään...
 lomake.addEventListener("submit", function () {
     let tieto = lomake.elements["kentta1"].value;
 
@@ -20,7 +24,7 @@ lomake.addEventListener("submit", function () {
     } 
     // Jos ei niin lisätään tieto "aktiiviset" listaan
     else {
-    // lisätään tieto ushiftillä, jotta uusin tieto näkyy ylimpänä
+    // lisätään tieto unshiftillä, jotta uusin tieto näkyy ylimpänä
     aktiiviset.unshift(tieto);
     localStorage.setItem("active", JSON.stringify(aktiiviset));
     };
@@ -30,6 +34,7 @@ lomake.addEventListener("submit", function () {
 // Lisätään tehtävät taulukkoon
 function lisaaRivi(locallist, listnimi){
     if (locallist.length > 0){
+        // luodaan jokaiselle js-listan elementille oma rivi ja kaksi solua
         locallist.forEach(i => {
             const rivi = lista.insertRow();
             const tekstisolu = rivi.insertCell();
@@ -41,14 +46,14 @@ function lisaaRivi(locallist, listnimi){
             // Luodaan nappi ja toiminnallisuus
             const nappi = document.createElement("button");
             nappi.textContent = "Poista";
-            // Poista rivi taulukosta ja rivin teksti js-listasta sekä localstoragesta
+            // kun nappia painetaan -> poistetaan rivi taulukosta ja rivin teksti js-listasta sekä localstoragesta
             nappi.addEventListener("click", function() {
                 rivi.remove();
                 locallist = locallist.filter(item => item !== i);
                 localStorage.setItem(listnimi, JSON.stringify(locallist));
                 location.reload()
             });
-            // Lisätään nappi taulukkoon
+            // Lisätään nappi soluun
             nappisolu.appendChild(nappi);
 
             // Lisätään css tyyli kaikille "valmiit"-listan elementeille
@@ -64,6 +69,7 @@ function lisaaRivi(locallist, listnimi){
 document.querySelectorAll("tr").forEach(rivi => {
   const ekaSolu = rivi.cells[0];
 
+  // lisätään kuuntelia tekstisolulle jotta voidaan vaihtaa tehtävän tilaa
   ekaSolu.addEventListener("click", function() {
     const teksti = ekaSolu.textContent;
 
@@ -76,7 +82,7 @@ document.querySelectorAll("tr").forEach(rivi => {
         valmiit.unshift(teksti);
         aktiiviset = aktiiviset.filter(item => item !== teksti);
     }
-
+    // päivitetään kumpikin lista localstorageen
     localStorage.setItem("active", JSON.stringify(aktiiviset));
     localStorage.setItem("done", JSON.stringify(valmiit));
 
