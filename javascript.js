@@ -12,22 +12,23 @@ lisaaRivi(valmiit, "done")
 
 // TIEDON LISÄSY
 // kun lomake lähetetään...
-lomake.addEventListener("submit", function () {
+lomake.addEventListener("submit", function (event) {
     let tieto = lomake.elements["kentta1"].value;
 
     // Tarkistetaan onko syöttöruutu tyhjä
     // Jos on niin annetaan virhe
     if (tieto.length < 1) {
-    alert("Kenttä ei voi olla tyhjä");
-    lomake.elements["kentta1"].style.border = "solid";
-    lomake.elements["kentta1"].style.borderColor = "red";
-    } 
+        event.preventDefault();
+        alert("Kenttä ei voi olla tyhjä");
+        lomake.elements["kentta1"].style.border = "solid";
+        lomake.elements["kentta1"].style.borderColor = "red";
+        } 
     // Jos ei niin lisätään tieto "aktiiviset" listaan
     else {
-    // lisätään tieto unshiftillä, jotta uusin tieto näkyy ylimpänä
-    aktiiviset.unshift(tieto);
-    localStorage.setItem("active", JSON.stringify(aktiiviset));
-    };
+        // lisätään tieto unshiftillä, jotta uusin tieto näkyy ylimpänä
+        aktiiviset.unshift(tieto);
+        localStorage.setItem("active", JSON.stringify(aktiiviset));
+        };
 });
 
 
