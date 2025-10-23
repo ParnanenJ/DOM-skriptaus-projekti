@@ -6,9 +6,9 @@ Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify](https://dom-skr
 Linkki projektin videoesittelyyn [Video](https://video.laurea.fi/media/Javascript%20(Projekti%201%20esittely)/0_yzvzqetc))
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
-Mielestäni onnistuin toteuttamaan sovellusken hyvin kaikki ominaisuuden toimii niinkuin pitääkin. 
-Parantamista olisi sovelluksen nopaudessa (tällähetkellä sivu latautuu aina kun localstorageen tallennetaan tai muutetaan jotain. Tämä aiheuttaa välillä pienen, mutta silmällä huomattavissa olevan viiveen). 
-Seuraava askel olisikin tämän projektin osalta sovelluksen kehittäminen niin ettei sivua tarvitsisi joka kerta ladata uudelleen, mutta tällä kertaa aika ei riittänyt siihen. 
+Mielestäni onnistuin toteuttamaan sovellusken kohtuu hyvin kaikki ominaisuuden toimii niinkuin pitääkin. 
+Parantamista olisi sovelluksen nopaudessa (tällähetkellä sivu latautuu aina kun localstorageen tallennetaan tai muutetaan jotain. Tämä aiheuttaa välillä pienen viiveen). 
+Seuraava askel olisikin tämän projektin osalta sovelluksen kehittäminen niin ettei sivua tarvitsisi joka kerta ladata uudelleen. Tällä kertaa yrityksestä huolimatta en saanut sitä toimimaan ilman bugeja, joten päädyin tähän ratkaisuun tällä aikataululla. 
 Koen, että olen oppinut tähän asti kurssilla opetettujen aiheiden perusteen ja niiden perus periaatteet.
 Antaisin itselleni pisteitä seuraavasti: 9/10 p
 
