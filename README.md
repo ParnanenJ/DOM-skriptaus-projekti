@@ -3,7 +3,7 @@ Jiro Pärnänen
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify](https://dom-skriptaus-projekti.netlify.app/) tai [Github](https://parnanenj.github.io/DOM-skriptaus-projekti/)  
-Linkki projektin videoesittelyyn [Video](https://video.laurea.fi/media/Javascript%20(Projekti%201%20esittely)/0_yzvzqetc))
+Linkki projektin videoesittelyyn [Video](https://video.laurea.fi/media/Javascript%20(Projekti%201%20esittely)/0_yzvzqetc)
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Mielestäni onnistuin toteuttamaan sovellusken kohtuu hyvin kaikki ominaisuuden toimii niinkuin pitääkin. 
@@ -23,7 +23,7 @@ Lähiopetus on ollut erittäin hyödyllistä ja hyvän laatuista.
 - [Teknologiat](#teknologiat)
 - [Asennus](#asennus)
 - [Lähestymistapa](#lähestymistapa)
-- [Kiitokset](#kiitokset)
+- [Lähteet](#lähteet)
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
@@ -42,7 +42,7 @@ Loin html:llä ja css:llä verkkosivun ja Javascriptillä loin toiminnallisuudet
 - lataa tai kloonaa repositorio  
 - käytä aiemmin mainittua linkkiä
 
-## Kiitokset
+## Lähteet
 Projektissa on hyödynnetty ChatGPT:ä koodin tarkistukseen ja virheiden kojaaamiseen. 
 
 ## Lisenssi
