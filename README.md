@@ -3,13 +3,14 @@ Jiro Pärnänen
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify](https://dom-skriptaus-projekti.netlify.app/) tai [Github](https://parnanenj.github.io/DOM-skriptaus-projekti/)  
-Linkki projektin videoesittelyyn [google.com](https://google.com)
+Linkki projektin videoesittelyyn [Video](https://video.laurea.fi/media/Javascript%20(Projekti%201%20esittely)/0_yzvzqetc))
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Mielestäni onnistuin toteuttamaan sovellusken hyvin kaikki ominaisuuden toimii niinkuin pitääkin. 
 Parantamista olisi sovelluksen nopaudessa (tällähetkellä sivu latautuu aina kun localstorageen tallennetaan tai muutetaan jotain. Tämä aiheuttaa välillä pienen, mutta silmällä huomattavissa olevan viiveen). 
-Koen, että olen oppinut kurssilla opetettujen aiheiden perusteen ja niiden perus periaatteet.
-Antaisin itselleni pisteitä seuraavasti: 10/10 p
+Seuraava askel olisikin tämän projektin osalta sovelluksen kehittäminen niin ettei sivua tarvitsisi joka kerta ladata uudelleen, mutta tällä kertaa aika ei riittänyt siihen. 
+Koen, että olen oppinut tähän asti kurssilla opetettujen aiheiden perusteen ja niiden perus periaatteet.
+Antaisin itselleni pisteitä seuraavasti: 9/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
 Kurssi on ollut tosi hyvä, kiinnostava ja selkeä.  
